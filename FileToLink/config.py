@@ -2,17 +2,17 @@ import os
 
 
 class Config:
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    Token = os.environ.get("BOT_TOKEN")
+    API_ID = '13876032'
+    API_HASH = 'c87c88faace9139628f6c7ffc2662bff'
+    Token = '5966376760:AAH3MM_g0A3ifcEOF9HMQ0jEhtYAaaGOfZU'
     Session = os.environ.get("Session_String")
     if Session is None or Session == "":
         Session = ":memory:"
-    App_Name = os.environ.get("APP_NAME")
-    Port = int(os.environ.get("PORT"))
-    Archive_Channel_ID = int(os.environ.get("ARCHIVE_CHANNEL_ID"))
-    Start_Message = os.environ.get("Start_Message")
-    Bot_Channel = os.environ.get("Bot_Channel_UserName")
+    App_Name = 'filelink'
+    Port = '8080'
+    Archive_Channel_ID = '-1001600474889'
+    Start_Message = 'Hola'
+    Bot_Channel = 'Stvz_UploadPro_bot'
     if Bot_Channel and Bot_Channel.startswith("@"):
         Bot_Channel = Bot_Channel[1:]
     elif Bot_Channel == "":
