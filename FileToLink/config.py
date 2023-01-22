@@ -10,16 +10,16 @@ class Config:
         Session = ":memory:"
     App_Name = 'filelink'
     Port = '8080'
-    Archive_Channel_ID = '-1001600474889'
+    Archive_Channel_ID = '-1001788475665'
     Start_Message = 'Hola'
-    Bot_Channel = 'Stvz_UploadPro_bot'
+    Bot_Channel = 'megaspacefiletolink_bot'
     if Bot_Channel and Bot_Channel.startswith("@"):
         Bot_Channel = Bot_Channel[1:]
     elif Bot_Channel == "":
         Bot_Channel = None
 
    # Link_Root = f"https://{App_Name}.herokuapp.com/"
-    Link_Root = "https://testfilelink.onrender.com/"
+    Link_Root = "https://filelink.onrender.com/"
     Download_Folder = "Files"
     Dev_Channel = "shadow_bots"
     Bot_UserName = None  # The bot will set it after starting
