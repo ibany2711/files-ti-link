@@ -2,9 +2,9 @@ import os
 
 
 class Config:
-    API_ID = '13876032'
-    API_HASH = 'c87c88faace9139628f6c7ffc2662bff'
-    Token = '5966376760:AAH3MM_g0A3ifcEOF9HMQ0jEhtYAaaGOfZU'
+    API_ID = '14252054'
+    API_HASH = 'd1fe0b5deec9bcac4d8238146b2d9a4c'
+    Token = '5625429337:AAHnbwy1Q_oM7qdwL5Mp2ANuH_4Sot70VPs'
     Session = os.environ.get("Session_String")
     if Session is None or Session == "":
         Session = ":memory:"
